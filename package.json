@@ -1,0 +1,29 @@
+{
+  "name": "laundry-booking",
+  "version": "1.0.0",
+  "description": "Aplikasi web untuk mengelola booking mesin laundry berbasis **CodeIgniter 4**, **Tailwind CSS**, dan **MySQL/MariaDB**.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tailwindcss -i ./app/Assets/css/input.css -o ./public/css/app.css --watch",
+    "build": "tailwindcss -i ./app/Assets/css/input.css -o ./public/css/app.css --minify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AgungReza/laundry-booking-satvikaloka.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/AgungReza/laundry-booking-satvikaloka/issues"
+  },
+  "homepage": "https://github.com/AgungReza/laundry-booking-satvikaloka#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}

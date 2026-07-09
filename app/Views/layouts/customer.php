@@ -4,7 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title><?= esc($title ?? 'Customer') ?> - Laundry Booking</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="stylesheet" href="<?= base_url('assets/css/style.css') ?>">
 </head>
 <body class="bg-slate-50 text-slate-800">
 <header class="bg-white border-b border-slate-200">
