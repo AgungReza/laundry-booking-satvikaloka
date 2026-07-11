@@ -34,7 +34,7 @@ Rekomendasi untuk Windows:
 
 ```text
 Laragon
-PHP 8.x
+PHP 8.3
 MySQL / MariaDB
 Composer
 ```
